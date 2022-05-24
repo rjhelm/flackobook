@@ -1,10 +1,10 @@
 import React, { forwardRef, useEffect, useState } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Paper from '@mui/material/Paper';
-import MoreHorizOutlinedIcon from '@mui/icons/MoreHorizOutlinedIcon';
-import ThumbUpAltOutlinedIcon from '@mui/icons/ThumbUpAltOutlined';
-import ChatBubbleOutlineOutlinedIcon from '@mui/icons/ChatBubbleOutlineOutlined';
-import ReplyOutlinedIcon from '@mui/icons/ReplyOutlined';
+import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlinedIcon';
+import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
+import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
 import Like from '../../../assets/like.png';
 import Love from '../../../assets/love.png';
 import Care from '../../../assets/care.png';

@@ -1,11 +1,11 @@
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { Paper } from '@mui/material/Paper';
 import firebase from 'firebase'
-import LinkedInIcon from '@mui/icons/LinkedInIcon';
-import GitHubIcon from '@mui/icons/GitHubIcon';
-import YouTubeIcon from '@mui/icons/YouTubeIcon';
-import TwitterIcon from '@mui/icons/TwitterIcon';
-import InstagramIcon from '@mui/icons/InstagramIcon';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import Logo from './../../assets/images/fb_text.png';
 import Style from './Style';
 

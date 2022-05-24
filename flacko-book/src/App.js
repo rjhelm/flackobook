@@ -9,7 +9,7 @@ import Contacts from './components/contacts/Contacts';
 import Stories from './components/stories/Stories';
 import Form from './components/form/Form';
 import Posts from './components/posts/Posts';
-import { LoginAction, LogoutAction } from './store/actions/auth';
+import { LoginAction, LogoutAction } from './store/actions/auth.js';
 import { auth } from './firebase';
 import { lightPrimary } from './assets/Colors';
 import Style from './Style';

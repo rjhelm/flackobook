@@ -1,4 +1,4 @@
-import firebase from 'firebase/app'
+import  { initializeApp } from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/storage';
 import 'firebase/firestore';
@@ -14,6 +14,7 @@ const firebaseConfig = {
     measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
+let firebase = initializeApp(firebaseConfig);
 let app;
 
 if (firebase.apps.length === 0) {

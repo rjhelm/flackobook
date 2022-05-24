@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Avatar, Tooltip, Paper, Divider } from '@mui/material';
 import { Scrollbars } from 'react-custom-scrollbars';
-import SearchIcon from '@mui/icons/Search';
-import MoreHorizon from '@mui/icons/MoreHorizon';
+import SearchOffRounded  from '@mui/icons-material/SearchOffRounded';
+import MoreHorizon from '@mui/icons-material/MoreHorizon';
 import InfoBar from '../util/InfoBar';
 import Style from './Style';
 import axios from 'axios';
@@ -31,7 +31,7 @@ const Contacts = () => {
                 <Divider />
                 <div className={classes.contacts__tab}>
                     <h4>Contacts</h4>
-                    <SearchIcon />
+                    <SearchOffRounded />
                     <MoreHorizon />
                 </div>
                 {users.map(({ char_id, name, img }) => (
